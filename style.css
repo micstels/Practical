@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.child1{
+    text-decoration: none;
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+nav{
+    display: flex;
+    padding: 20px 100px;
+}
+
+.NavBar{
+    background-image: url(pexels-ryan-west-1719648.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 0;
+
+}
+
+.herotext{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+.sub-hero h1{
+    padding-bottom: 5px;
+    font-size: 50px;
+    color: black;
+}
+
+.sub-hero p{
+    padding-bottom: 20px;
+}
+
+.sub-hero p {
+    color: white;
+}
+
+.child2 ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.child2 ul .fa-facebook{
+    color: blue;
+}
+
+.child2 ul .fa-instagram{
+    color:#e03011;
+}
+
+.child2 ul .fa-twitter{
+    color: blue;
+}
+
+.child2{
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.child2 ul li:hover{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.sub-hero button{
+    padding: 8px 12px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
